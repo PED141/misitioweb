@@ -1,0 +1,214 @@
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    padding: 10px;
+    background-color: rgb(3, 149, 247);
+    color: rgb(15, 14, 14);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.principal{
+    padding: 10px;
+    background-color: rgb(49, 203, 250);
+    color: rgb(10, 10, 10);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.principal1{
+    padding: 10px;
+    background-color: rgb(106, 180, 72);
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.principal2{
+    padding: 10px;
+    background-color: rgb(180, 72, 104);
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.principal3{
+    padding: 10px;
+    background-color: rgb(180, 72, 104);
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.principal4{
+    padding: 10px;
+    background-color: rgb(138, 50, 9);
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex;
+    padding: 0px;
+    background-color: rgb(55, 137, 170);
+    
+}
+nav1{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(196, 42, 42);
+    }
+    nav2{
+        display: flex;
+        padding: 20px;
+        background-color: rgb(12, 201, 53);
+        }
+        nav3{
+            display: flex;
+            padding: 20px;
+            background-color: rgb(182, 70, 26);
+            }
+            nav4{
+                display: flex;
+                padding: 20px;
+                background-color: rgba(189, 70, 26, 0.932);
+                }
+ul{
+    list-style:none;
+}
+li{
+    display: inline;
+}
+ul{
+    list-style-type: disc;;
+}
+li{
+    display: circle;
+}
+
+a{
+    padding: 15px;
+    color: rgb(12, 12, 12);
+    text-decoration:#db6767;
+}
+
+a:hover{
+    background-color: gray;
+}
+/* Column container */
+.row {  
+    display: flex;;
+    flex-wrap: wrap;
+    background-color: rgb(71, 13, 231);
+    color: rgb(14, 13, 14);
+   
+    
+  }
+  .row {  
+    
+     flex:30;
+    flex-wrap: wrap;
+    background-color: rgb(86, 33, 233);
+    color: rgb(14, 13, 14);
+  }
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 100%;
+    background-color: #ad5959;
+    padding: 40px;
+    text-align: center;
+    height: 500px;
+    width: 200px;
+  }
+  .side1 {
+      flex:100;
+    float:center;
+    background-color: #ddb66d;
+    padding: 150px;
+     width: 1350px;
+    height: 1200;
+    text-align:justify;
+      
+
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color: rgb(170, 135, 135);
+    padding: 20px;
+   
+  }
+  .main1 {
+    
+    background-color: rgb(165, 85, 85);
+    float:left;
+    padding: 10px;
+    height: 535px;
+    width: 350px;
+  }
+  .main2 {
+    float:left;
+    background-color: rgb(170, 135, 135);
+    padding: 20px;
+    height: 540px;
+    width: 300px;
+   
+  }
+  .main3 {
+    flex: 10%;
+    background-color: rgb(158, 243, 137);
+    padding: 40px;
+    text-align:justify;
+    
+  }
+  
+  .main4 {
+    flex: 10%;
+    background-color: rgb(197, 164, 164);
+    padding: 30px;
+    text-align:center;
+    
+  }
+  .main5 {
+    flex: 10%;
+    background-color: rgb(80, 22, 22);
+    padding: 30px;
+    text-align:center;
+    width: 1320px;
+    height: 540px;
+  }
+  
+
+
+
+aside{
+    flex: 60%;
+    padding: 5px;
+    background-color: tomato;
+   
+}
+
+
+
+button{
+    font-size: large;
+    outline: none;
+    background-color: white;
+    border: 2px solid blueviolet;
+    color:coral;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(161, 42, 42);
+  }
